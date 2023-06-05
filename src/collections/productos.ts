@@ -14,7 +14,7 @@ export const Productos: CollectionConfig = {
       label:"precio del producto"
     },
     {
-      name:"image",
+      name:"image", 
       type:'upload',
       relationTo:'media'
     }
