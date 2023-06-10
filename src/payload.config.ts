@@ -8,7 +8,7 @@ import Productos from './collections/productos';
 
 
 export default buildConfig({
-  serverURL: 'http://localhost:3000',
+  serverURL: `https://ice-cream-y9pb.onrender.com:${process.env.PORT}`,  
   admin: {
     user: Users.slug,
   },
